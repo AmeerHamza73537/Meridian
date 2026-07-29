@@ -351,7 +351,7 @@ for key in ("results", "running", "done"):
 st.markdown("""
 <div class="hero">
     <div class="hero-eyebrow">Multi-Agent AI System</div>
-    <h1>Research<span>Mind</span></h1>
+    <h1>Meridian</h1>
     <p class="hero-sub">
         Four specialized AI agents collaborate — searching, scraping, writing,
         and critiquing — to deliver a polished research report on any topic.
@@ -535,6 +535,6 @@ if r:
 # ── Footer ────────────────────────────────────────────────────────────────────
 st.markdown("""
 <div class="notice">
-    ResearchMind · Powered by LangChain multi-agent pipeline · Built with Streamlit
+    Meridian · Powered by LangChain multi-agent pipeline · Built with Streamlit
 </div>
 """, unsafe_allow_html=True)
