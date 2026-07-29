@@ -7,6 +7,11 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+if "GEMINI_API_KEY" in st.secrets:
+     os.environ["GEMINI_API_KEY"] = st.secrets["GEMINI_API_KEY"]
+if "TAVILY_API_KEY" in st.secrets:
+    os.environ["TAVILY_API_KEY"] = st.secrets["TAVILY_API_KEY"]
+
 llm = ChatGoogleGenerativeAI(model="gemini-flash-latest", temperature=0)
 
 # 1st agent
